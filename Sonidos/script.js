@@ -16,9 +16,11 @@
 //     }
 // }
 
+// Los archivos de sonido se consiguieron en la página https://freesound.org/
+
 var vaca = new Audio('cow.wav');
-var perro = new Audio('dogShort.wav');
-var gato = new Audio('meow2.wav')
+var perro = new Audio('dog.wav');
+var gato = new Audio('meow.wav')
 
 function sonidoVaca(){
     vaca.play();
