@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sonidos</title>
+    <script src="script.js"></script>
+    <style>
+        body{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto 50px auto;
+            grid-gap:10px;
+            grid-template-areas: 
+            "vaca . gato"
+            ". . ."
+            ". perro perro";
+            /* justify-content: center; */
+        }
+        .animal{
+            background-color:black;
+            color:white;
+            border-radius: 5px;
+            font-size:20pt;
+            font-family: 'Comic Sans MS';
+            padding:4px;
+        }
+        #vaca, #perro, #gato{
+            justify-self:stretch; 
+            display:grid;
+            justify-content: center;
+            align-content: center;
+            /* text-align: justify; */
+            /* align-self:center; */
+        }
+        #vaca{
+            grid-area: vaca;
+        }
+        #perro{
+            grid-area: perro;
+        }
+        #gato{
+            grid-area: gato;
+        }
+
+    </style>
+</head>
+<body>
+    <span id="vaca" class="animal" onclick=sonidoVaca()>Vaca</span>  
+    <span id="perro" class="animal" onclick="sonidoPerro()">
+        <p>Perro</p>
+        <p>Test</p>
+    </span>    
+    <span id="gato" class="animal" onclick="sonidoGato()">Gato </span>    
+</body>
+</html>

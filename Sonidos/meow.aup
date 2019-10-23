@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="meow_data" version="1.3.0" audacityversion="2.1.0" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.7235708291" zoom="1129.1223569862" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds">
+	<tags>
+		<tag name="YEAR" value="2018"/>
+		<tag name="ARTIST" value="mafon2"/>
+		<tag name="COMMENTS" value="sonniss.com/sound-effects/scaredy-cat/"/>
+	</tags>
+	<wavetrack name="meow" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00358277">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="25226">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000de0.au" len="814" min="-0.004874" max="0.003996" rms="0.000182"/>
+				</waveblock>
+				<waveblock start="814">
+					<simpleblockfile filename="e0000525.au" len="24412" min="-0.525153" max="0.501479" rms="0.084988"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="1.60123111">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22966">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000169.au" len="22966" min="-0.525153" max="0.501479" rms="0.084988"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="meow" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00358277">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="25226">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000290.au" len="814" min="-0.004932" max="0.005444" rms="0.000195"/>
+				</waveblock>
+				<waveblock start="814">
+					<simpleblockfile filename="e0000b5b.au" len="24412" min="-0.481516" max="0.436168" rms="0.071"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="1.60123111">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="22966">
+				<waveblock start="0">
+					<simpleblockfile filename="e000085e.au" len="22966" min="-0.481516" max="0.436168" rms="0.071"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Pista de audio" channel="2" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="2.12200209">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="8820">
+				<waveblock start="0">
+					<silentblockfile len="8820"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
